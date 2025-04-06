@@ -1,4 +1,4 @@
-# 🧬 Protein Information Application
+# 🧬 Ben Vozza Take Home Assessment
 
 This repository contains a full-stack application that allows users to search for and explore proteins, their associated identifiers, functional annotations, and protein-protein interactions. 
 
