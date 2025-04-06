@@ -46,6 +46,7 @@ This will:
 - Mount the data/ directory into the backend container
 
 > ⚠️ **Wait until the backend API is ready before interacting with the application**.
+** [Once Ready the application is available here](http://localhost:3000)**
 
 
 ##  Known Limitations & Future Work
@@ -58,4 +59,5 @@ This will:
 - Add more detailed documentation, README in each project's directory (detailing all the different routes etc). 
 - linting recommendations/style guides for each repo (test coverage, pyruff, black etc).
 - Split out into two git repo's instead of one.
+- Better parsing of UUID's, currently contain node types (probably from Neo4J). 
 
