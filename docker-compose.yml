@@ -1,0 +1,22 @@
+version: "3.9"
+
+services:
+  backend:
+    build:
+      context: ./backend
+    container_name: biographica-backend
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./data:/app/data  # Mount data directory
+    environment:
+      - PYTHONUNBUFFERED=1
+
+  frontend:
+    build:
+      context: ./frontend
+    container_name: biographica-frontend
+    ports:
+      - "3000:80"  # Serve frontend via nginx
+    depends_on:
+      - backend
