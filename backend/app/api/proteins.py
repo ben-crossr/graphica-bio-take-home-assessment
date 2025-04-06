@@ -2,7 +2,7 @@ from fastapi import APIRouter, HTTPException, Query, Depends
 from typing import List
 from app.database.database import Database
 from app.models.models import Protein, FunctionalAnnotation, ProteinInteraction
-from app.main import get_db
+from app.dependencies import get_db
 
 router = APIRouter()
 
