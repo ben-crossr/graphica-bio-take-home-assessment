@@ -54,6 +54,8 @@ This will:
 - Increased number of search term's for a given protein.
 - No authentication / user management.
 - No test suite or CI/CD pipeline in either project.
-- Add more detailed documentation, README in each project's directory. 
+- Add more detailed documentation, README in each project's directory (detailing all the different routes etc). 
+- linting recommendations/style guides for each repo (test coverage, pyruff, black etc).
 - Split out into two git repo's instead of one.
+- Some code clean up in ParquetDatabase, although this would most likely be binned for a real database implementation.
 
