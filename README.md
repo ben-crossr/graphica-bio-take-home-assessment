@@ -27,7 +27,7 @@ The project is Ben Vozza's submission for the take home test for **Biographica**
 > ⚠️ **Docker Desktop must be running** on your machine before starting.
 
 1. **Prepare the data**  
-  Create a `data/` folder containing the necessary `.parquet` files (named exactly as below):
+  Create a `data/` folder in the base of this repo containing the necessary `.parquet` files (named exactly as below):
   - `protein_nodes.parquet`
   - `go_term_nodes.parquet`
   - `edges.parquet`
