@@ -52,7 +52,7 @@ This will:
 ##  Known Limitations & Future Work
 - Sorting Ascending/Descending by column scores.
 - No persistent database — the Parquet files are loaded ("indexed") into memory at start time (why the backend API takes a little time to be ready).
-- Some code clean up in ParquetDatabase, although this would most likely be binned for a real database implementation such as Postgres.
+- Some code clean up in ParquetDatabase (such as not hardcoding source file names), although this would most likely be binned for a real database implementation such as Postgres.
 - Increased number of search term's for a given protein.
 - No authentication / user management.
 - No test suite or CI/CD pipeline in either project.
